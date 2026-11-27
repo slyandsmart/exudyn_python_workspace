@@ -8,6 +8,11 @@
   ],
   "remoteUser": "ubuntu",
   "updateRemoteUserUID": true,
+  // Use X11 and Mesa software rendering for VS Code processes in the container.
+  "remoteEnv": {
+    "WAYLAND_DISPLAY": "",
+    "LIBGL_ALWAYS_SOFTWARE": "1"
+  },
   "workspaceMount": "source=${localWorkspaceFolder},target=/${localWorkspaceFolderBasename},type=bind",
   "workspaceFolder": "/${localWorkspaceFolderBasename}",
   "mounts": [
@@ -17,6 +22,10 @@
 "customizations": {
   // Configure properties specific to VS Code.
   "vscode": {
+    // Use the container venv; overrides a (Windows) interpreter path from the local user settings.
+    "settings": {
+      "python.defaultInterpreterPath": "/python/venv/bin/python"
+    },
     // Add the IDs of extensions you want installed when the container is created.
     "extensions": [
       "streetsidesoftware.code-spell-checker",
