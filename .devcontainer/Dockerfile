@@ -1,4 +1,6 @@
-FROM osrf/ros:jazzy-desktop
+FROM ubuntu:26.04
+
+ENV DEBIAN_FRONTEND=noninteractive
 
 ARG USERNAME=ubuntu
 
@@ -59,15 +61,11 @@ RUN pip install --upgrade pip setuptools wheel
 RUN pip install --requirement /tmp/requirements.txt
 
 
-# Rosdep update
-RUN rosdep update
 
-# Source the ROS setup file
-RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 RUN export PATH="/home/vscode.local/bin:$PATH"
 #RUN source ~/.bashrc   
 
 # Switch from root to user
 USER $USERNAME
-WORKDIR /martinDock2Ros2/workspace
+WORKDIR /workspace
 

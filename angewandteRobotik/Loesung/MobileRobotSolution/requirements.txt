@@ -1,0 +1,5 @@
+# Exudyn from the folder wheels of this package (Python 3.13); a newer Exudyn of PyPI is taken as well
+--find-links wheels
+# Base simulation (runSimulation.py, students)
+exudyn>=1.13.792.dev1
+numpy

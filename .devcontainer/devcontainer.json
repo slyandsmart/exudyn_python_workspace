@@ -1,8 +1,8 @@
 {
-  "name": "ros2_jazzy",
+  "name": "exudyn_python",
   "dockerFile": "Dockerfile",
   "runArgs": [
-    "--name", "ros2_jazzy",
+    "--name", "exudyn_python",
     "--privileged",
     "--network=host"
   ],

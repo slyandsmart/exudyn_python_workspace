@@ -1,0 +1,321 @@
+{
+ "source": {
+  "stepFile": "11_Konstruktion_6R/aufbau_6r_gesamt_asm.stp",
+  "createdBy": "tools/convertCadToMeshes.py",
+  "date": "2026-11-09"
+ },
+ "cadJointAnglesDeg": [
+  18.880000344489666,
+  55.277347039837274,
+  89.66868157951683,
+  179.9999999901129,
+  -34.13067138129105,
+  0.0
+ ],
+ "cadAxisDeviations": {
+  "axis2CenterMillimeter": [
+   0.002109892666567248,
+   0.004006262602956667,
+   4.602211270676946
+  ],
+  "axis3CenterMillimeter": [
+   -0.6999638245718529,
+   2.046773885363166,
+   1.5141215150417224
+  ],
+  "wristCenterMillimeter": [
+   -0.0024274928877048296,
+   0.007089665348217089,
+   -0.0098228366339157
+  ],
+  "axisAngleErrorsDeg": [
+   0.0014799421827136484,
+   0.001498330911289067,
+   0.4093286187105117,
+   0.0,
+   0.0
+  ]
+ },
+ "links": [
+  {
+   "mass": 2.016775131717477,
+   "COM": [
+    -8.942606655182318e-13,
+    -3.251443558838219e-14,
+    0.2089332777686964
+   ],
+   "inertiaCOM": [
+    [
+     0.003848513552112145,
+     -1.6904499287164854e-12,
+     -6.762673852310886e-14
+    ],
+    [
+     -1.6904498154255383e-12,
+     0.0035673568874853945,
+     -2.7724135416739783e-17
+    ],
+    [
+     -6.762673852310886e-14,
+     -2.7724135416739783e-17,
+     0.002970853362081994
+    ]
+   ],
+   "numberOfParts": 1
+  },
+  {
+   "mass": 2.350405121591354,
+   "COM": [
+    0.0020991860267860715,
+    -0.12002564643660353,
+    -0.02814059789802309
+   ],
+   "inertiaCOM": [
+    [
+     0.04783716855993392,
+     -0.0004776870101692193,
+     -2.6890391482535898e-05
+    ],
+    [
+     -0.00047768701016921857,
+     0.010457276443793321,
+     -0.00011824877522078145
+    ],
+    [
+     -2.689039148253617e-05,
+     -0.00011824877522077957,
+     0.0398044042156734
+    ]
+   ],
+   "numberOfParts": 39
+  },
+  {
+   "mass": 1.1397977921428428,
+   "COM": [
+    0.0019155123019081088,
+    0.002630093485714497,
+    -1.4811330402153545e-09
+   ],
+   "inertiaCOM": [
+    [
+     0.0012466189453320155,
+     4.9187237722503375e-06,
+     1.2849886065240861e-12
+    ],
+    [
+     4.918723772250305e-06,
+     0.0019350705247779443,
+     1.57452614683278e-12
+    ],
+    [
+     1.2849886435535987e-12,
+     1.57452612654341e-12,
+     0.00161171428122485
+    ]
+   ],
+   "numberOfParts": 1
+  },
+  {
+   "mass": 1.3473716680773251,
+   "COM": [
+    0.0009357453480717198,
+    1.717761710551713e-06,
+    0.24474330511058015
+   ],
+   "inertiaCOM": [
+    [
+     0.014745969812955971,
+     8.164642975583506e-05,
+     0.00010262228793473538
+    ],
+    [
+     8.164642975583449e-05,
+     0.01430387425479435,
+     6.704470739877289e-06
+    ],
+    [
+     0.0001026222879347354,
+     6.704470739877181e-06,
+     0.002281251408839326
+    ]
+   ],
+   "numberOfParts": 409
+  },
+  {
+   "mass": 0.017900776947384987,
+   "COM": [
+    7.334468105199221e-06,
+    0.0068927454450978445,
+    2.764967177881772e-09
+   ],
+   "inertiaCOM": [
+    [
+     1.1479330687373445e-05,
+     -1.0142813448661841e-14,
+     -3.9832311888826135e-14
+    ],
+    [
+     -1.0142813418072223e-14,
+     7.407565066231996e-06,
+     -7.980172342711667e-18
+    ],
+    [
+     -3.983231181967506e-14,
+     -7.98017163624147e-18,
+     5.0064194097329576e-06
+    ]
+   ],
+   "numberOfParts": 1
+  },
+  {
+   "mass": 0.08315449385630802,
+   "COM": [
+    7.3344681097751165e-06,
+    -2.765147314676142e-09,
+    0.04077906960134191
+   ],
+   "inertiaCOM": [
+    [
+     3.260777702745372e-05,
+     8.581140348789031e-16,
+     1.0266184312156963e-17
+    ],
+    [
+     8.581133224591735e-16,
+     3.260777696334281e-05,
+     -1.2580013100706678e-19
+    ],
+    [
+     1.0266177943965e-17,
+     -1.2580776724187288e-19,
+     2.0648974106137396e-05
+    ]
+   ],
+   "numberOfParts": 51
+  }
+ ],
+ "meshFiles": [
+  {
+   "file": "base_aluminum.npz",
+   "link": -1,
+   "colorGroup": "aluminum",
+   "numberOfTriangles": 6998,
+   "maximumDeviation": 0.00027288240380585194
+  },
+  {
+   "file": "base_schunk.npz",
+   "link": -1,
+   "colorGroup": "schunk",
+   "numberOfTriangles": 1632,
+   "maximumDeviation": 0.0002550557837821543
+  },
+  {
+   "file": "link1_schunk.npz",
+   "link": 0,
+   "colorGroup": "schunk",
+   "numberOfTriangles": 992,
+   "maximumDeviation": 0.00033616999280638993
+  },
+  {
+   "file": "link2_connectionCap.npz",
+   "link": 1,
+   "colorGroup": "connectionCap",
+   "numberOfTriangles": 6002,
+   "maximumDeviation": 0.0003349682374391705
+  },
+  {
+   "file": "link2_printed.npz",
+   "link": 1,
+   "colorGroup": "printed",
+   "numberOfTriangles": 3202,
+   "maximumDeviation": 0.00038874466554261744
+  },
+  {
+   "file": "link2_schunk.npz",
+   "link": 1,
+   "colorGroup": "schunk",
+   "numberOfTriangles": 3710,
+   "maximumDeviation": 0.00042898583342321217
+  },
+  {
+   "file": "link3_schunk.npz",
+   "link": 2,
+   "colorGroup": "schunk",
+   "numberOfTriangles": 1064,
+   "maximumDeviation": 0.00020633875101339072
+  },
+  {
+   "file": "link4_aluminum.npz",
+   "link": 3,
+   "colorGroup": "aluminum",
+   "numberOfTriangles": 290,
+   "maximumDeviation": 0.0002108375047100708
+  },
+  {
+   "file": "link4_gear.npz",
+   "link": 3,
+   "colorGroup": "gear",
+   "numberOfTriangles": 1026,
+   "maximumDeviation": 0.00029322781483642757
+  },
+  {
+   "file": "link4_printed.npz",
+   "link": 3,
+   "colorGroup": "printed",
+   "numberOfTriangles": 37525,
+   "maximumDeviation": 0.00030855281511321664
+  },
+  {
+   "file": "link4_schunk.npz",
+   "link": 3,
+   "colorGroup": "schunk",
+   "numberOfTriangles": 1596,
+   "maximumDeviation": 0.00013150718586985022
+  },
+  {
+   "file": "link5_printed.npz",
+   "link": 4,
+   "colorGroup": "printed",
+   "numberOfTriangles": 1096,
+   "maximumDeviation": 0.0002596329140942544
+  },
+  {
+   "file": "link6_gear.npz",
+   "link": 5,
+   "colorGroup": "gear",
+   "numberOfTriangles": 368,
+   "maximumDeviation": 0.0004942467203363776
+  },
+  {
+   "file": "link6_printed.npz",
+   "link": 5,
+   "colorGroup": "printed",
+   "numberOfTriangles": 1544,
+   "maximumDeviation": 0.00031303291325457394
+  }
+ ],
+ "gripperJaws": {
+  "jawRight": {
+   "file": "gripper_jawRight.npz",
+   "arcCenterMillimeter": [
+    36.515063524413655,
+    -45.81842821168004
+   ],
+   "arcRadius": 0.025608786380794935,
+   "mountZ": -0.05381842821168004,
+   "numberOfTriangles": 2215,
+   "maximumDeviation": 0.00042460820078849795
+  },
+  "jawLeft": {
+   "file": "gripper_jawLeft.npz",
+   "arcCenterMillimeter": [
+    36.51042491549306,
+    -45.82131102305782
+   ],
+   "arcRadius": 0.025601533174458714,
+   "mountZ": -0.053821311023057816,
+   "numberOfTriangles": 4410,
+   "maximumDeviation": 0.0002630058825016022
+  }
+ }
+}

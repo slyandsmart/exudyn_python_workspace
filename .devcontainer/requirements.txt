@@ -1,6 +1,7 @@
 # requirements.txt for devcontainer
-numpy==2.5.3
-scipy==1.18.1
-matplotlib==3.11.2
-roboticstoolbox-python==1.4.4
-exudyn
+# Exudyn from the folder wheels of this package (Python 3.13); a newer Exudyn of PyPI is taken as well
+--find-links wheels
+# Base simulation (runSimulation.py, students)
+exudyn>=1.13.792.dev1
+numpy
+scipy

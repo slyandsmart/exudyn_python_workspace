@@ -1,0 +1,43 @@
+{
+ "_note": "Student package: without the addresses of the lab (only the simulation runs, it never connects).",
+ "viconPc": {
+  "host": "0.0.0.0",
+  "dataStreamPort": 801
+ },
+ "labPc": {
+  "host": "0.0.0.0",
+  "exuxrPort": 8444
+ },
+ "robots": {
+  "kairos": {
+   "host": "0.0.0.0",
+   "rosbridgePort": 9090,
+   "rosMasterPort": 11311,
+   "user": "",
+   "panelPort": 8071,
+   "demoPanelPort": 8081
+  },
+  "leobot": {
+   "host": "0.0.0.0",
+   "rosbridgePort": 9090,
+   "rosMasterPort": 11311,
+   "user": "",
+   "wlan": "",
+   "viconHost": "0.0.0.0",
+   "pandaHost": "0.0.0.0",
+   "panelPort": 8072,
+   "demoPanelPort": 8082
+  },
+  "robot6R": {
+   "canChannel": "PCAN_USBBUS1",
+   "panelPort": 8073,
+   "demoPanelPort": 8083
+  },
+  "staubli": {
+   "host": "0.0.0.0",
+   "val3Port": 6969,
+   "emulatorHost": "0.0.0.0",
+   "_note": "Student package: without the addresses of the lab (only the simulation runs, it never connects)."
+  }
+ }
+}

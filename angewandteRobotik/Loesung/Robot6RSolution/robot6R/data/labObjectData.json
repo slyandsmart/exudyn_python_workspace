@@ -1,0 +1,37 @@
+{
+ "source": {
+  "stepFile": "11_Konstruktion_6R/aufbau_6r_gesamt_asm.stp",
+  "createdBy": "tools/convertCadToMeshes.py",
+  "date": "2026-11-09"
+ },
+ "meshFiles": [
+  {
+   "file": "environment_tableLegs.npz",
+   "link": -2,
+   "colorGroup": "tableLegs",
+   "numberOfTriangles": 472,
+   "maximumDeviation": 0.0
+  },
+  {
+   "file": "environment_tablePlate.npz",
+   "link": -2,
+   "colorGroup": "tablePlate",
+   "numberOfTriangles": 24,
+   "maximumDeviation": 0.0
+  }
+ ],
+ "labObjects": {
+  "table1": {
+   "file": "lab_table1.npz",
+   "numberOfTriangles": 14867
+  },
+  "table2": {
+   "file": "lab_table2.npz",
+   "numberOfTriangles": 5889
+  },
+  "cupHolder": {
+   "file": "lab_cupHolder.npz",
+   "numberOfTriangles": 902
+  }
+ }
+}
